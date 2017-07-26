@@ -1,0 +1,36 @@
+<style>
+
+ 
+
+</style>
+
+
+<div class="container"> 
+  <div class="row">
+    <div class="col-lg-12 text-center">
+<h1>Welcome to Gear</h1>
+<h3>if you can read this message, your installation of Gear is possibly working well (for defaults, indeed). However, you must check some of the installed files in order to set it up as you want it to.</h3><br><br>
+<p>We performed a basic check and the following changes might be necessary:</p>
+
+<?php
+global $config;
+if ($config[cryptokey] == '21889CEAC0EA6F09F849D05ABD525B047199E06C9CA02AD9F57010AB22A2BA23'){
+?>
+<p>You must change the criptokey configuration in the file ROOT/_core/_config/config.php</p>
+
+
+<?php }
+
+?>
+
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+
+    </div>
+  </div>
+</div>
+
